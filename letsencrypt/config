@@ -1,0 +1,6 @@
+# review options at
+# https://github.com/lukas2511/letsencrypt.sh/blob/master/docs/examples/config
+
+CA="${LETS_ENCRYPT_CA}"
+CHALLENGETYPE="dns-01"
+HOOK="$SCRIPTDIR/hook.sh"
